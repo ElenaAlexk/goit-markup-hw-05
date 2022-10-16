@@ -248,7 +248,7 @@ img {
   border-radius: 4px;
   background: #f5f4fa;
 }
-
+/* Чим ми займаємось */
 .section-work {
   padding-top: 0px;
   padding-bottom: 94px;
@@ -277,6 +277,29 @@ img {
   color: #757575;
   font-size: 14px;
   line-height: 1.71;
+}
+.flex-thumb {
+  position: relative;
+}
+.action {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.desk {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
 }
 
 .gallery {
