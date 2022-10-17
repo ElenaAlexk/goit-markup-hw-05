@@ -211,11 +211,11 @@ ol {
   border-radius: 4px;
 }
 .btn-close {
-  width: 30px;
-  height: 30px;
-  margin-top: 8px;
-  margin-right: 8px;
-  border-radius: 50%;
+  background: var(--primary-text-color);
+  border: transparent;
+}
+.icon-close {
+  fill: var(--primary-text-color);
 }
 .btn-filter {
   display: flex;
