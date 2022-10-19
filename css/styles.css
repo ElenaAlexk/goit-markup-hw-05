@@ -257,7 +257,6 @@ ol {
 }
 .icon-close {
   fill: #000000;
-  background-color: var(--primary-text-color);
 }
 .btn-filter {
   display: flex;
