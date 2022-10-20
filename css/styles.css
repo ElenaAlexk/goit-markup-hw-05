@@ -148,6 +148,7 @@ ol {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-nav :hover,
 .site-nav :focus {
@@ -205,6 +206,7 @@ ol {
   line-height: 1.88;
   align-items: center;
   letter-spacing: 0.06em;
+  transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover,
 .button:focus {
@@ -277,6 +279,7 @@ ol {
   text-align: center;
   border-radius: 4px;
   border-color: transparent;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-filter.current {
@@ -423,6 +426,7 @@ img {
   justify-content: center;
   color: #afb1b8;
   background: var(--primary-text-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-link {
   fill: currentColor;
@@ -534,6 +538,7 @@ img {
   align-items: center;
   justify-content: center;
   color: #afb1b8;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-icon {
   fill: currentColor;
@@ -559,6 +564,7 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link {
   color: var(--primary-text-color);
@@ -618,6 +624,7 @@ img {
   justify-content: center;
   fill: var(--primary-text-color);
   background: rgba(255, 255, 255, 0.1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:hover,
 .social-link:focus {
